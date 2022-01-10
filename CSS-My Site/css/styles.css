@@ -39,15 +39,17 @@ hr{
     bottom: 90px;
 }
 #intro{
-    font-size: 28px;
+    font-size: 2em; /* 16px = 100% =  1em*/
     margin-top: 170px;
-    margin-bottom:75px ;
+    margin-bottom: 40px;
 }
 .profile{
     margin: 80px;
 }
 .para{
-   margin: 0 470px;
+   width: 40%;
+   margin:auto;
+   line-height: 2;
 }
 .icon{
     position: absolute;
@@ -56,7 +58,7 @@ hr{
 }
 nav{
     position: relative;
-    left: 27%;
+    left: 30%;
     top:45px;
 }
 .navLink{
@@ -73,7 +75,7 @@ nav{
     margin: 100px auto;
 }
 .analyst{
-    height: 90px;
+    width: 6%;
     position: absolute;
     left: 25%;
 }
@@ -82,7 +84,7 @@ nav{
     left: 30px;
 }
 .analyst1{
-    height: 90px;
+    width: 6%;
     position: absolute;
     right: 25%;
 }
@@ -107,5 +109,11 @@ button:hover{
 .footer-link{
     text-decoration: none;
     padding:5px;
+}
+h3{
+    color: #11999E;
+}
+h2{
+    color:rgb(28, 112, 112)
 }
 
