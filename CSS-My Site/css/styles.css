@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    color:darkslategrey;
+}
+h1{
+    margin-top: 0;
+}
+.top_container{
+    background-color: #66bfbf;
+}
+hr{
+    border-style: dotted;
+    border-bottom-style: none ;
+    border-width: 5px;
+    width:4%;
+    color: grey;
+    margin:80px auto;
+}
+#name{
+    font-family: 'Sacramento', cursive;
+}
+.cloud1, .cloud2, #intro{
+    display: inline-block;
+}
+.mountain{
+    height:300px;
+    width: 500px;
+}
+.cloud1{
+    position:relative;
+    right: 15%;
+    top:70px;
+}
+.cloud2{
+    position: relative;
+    left: 15%;
+    bottom: 90px;
+}
+#intro{
+    font-size: 28px;
+    margin-top: 170px;
+    margin-bottom:75px ;
+}
+.profile{
+    margin: 80px;
+}
+.para{
+   margin: 0 470px;
+}
+.icon{
+    position: absolute;
+    left: 5%;
+    top:30px;
+}
+nav{
+    position: relative;
+    left: 27%;
+    top:45px;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:darkslategrey;
+}
+a:hover{
+    color:green;
+}
