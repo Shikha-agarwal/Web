@@ -93,27 +93,40 @@ nav{
     right: 30px;
 }
 button{
-    margin: 4% auto 4%;
-    border-radius: 30px;
+    margin: 4% auto 8%;
+    border-radius: 10px;
+    border-color:#57a3a3;
     padding: 5px;
-    background-color: cornflowerblue;
+    background-color: #66BFBF;
 }
 .btn{
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 button:hover{
     background-color: lightseagreen;
 }
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
 .footer-link{
     text-decoration: none;
-    padding:5px;
+    margin: 30px;
+    color: #2b787a;
+    font-weight: bold;
 }
 h3{
     color: #11999E;
 }
 h2{
     color:rgb(28, 112, 112)
+}
+.copyright{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #EAF6F6;
 }
 
