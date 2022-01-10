@@ -16,7 +16,7 @@ hr{
     border-width: 5px;
     width:4%;
     color: grey;
-    margin:80px auto;
+    margin:90px auto;
 }
 #name{
     font-family: 'Sacramento', cursive;
@@ -36,7 +36,7 @@ hr{
 .cloud2{
     position: relative;
     left: 15%;
-    bottom: 90px;
+    bottom: 120px;
 }
 #intro{
     font-size: 2em; /* 16px = 100% =  1em*/
@@ -65,7 +65,7 @@ nav{
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
-    color:darkslategrey;
+    color: white;
 }
 .navLink:hover{
     color:green;
@@ -115,8 +115,11 @@ button:hover{
 .footer-link{
     text-decoration: none;
     margin: 30px;
-    color: #2b787a;
+    color: #2b9799;
     font-weight: bold;
+}
+.footer-link:hover{
+    color: #EAF6F6;
 }
 h3{
     color: #11999E;
@@ -128,5 +131,6 @@ h2{
     margin-top: 30px;
     margin-bottom: 0px;
     color: #EAF6F6;
+    font-size: 0.90rem;
 }
 
