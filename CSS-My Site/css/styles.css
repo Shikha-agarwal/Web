@@ -1,143 +1,145 @@
-body{
-    margin: 0;
-    text-align: center;
-    font-family: sans-serif;
-    color:darkslategrey;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: darkslategrey;
 }
-h1{
-    margin-top: 0;
+h1 {
+  margin-top: 0;
 }
-.top_container{
-    /* background-color:lightblue; */
-    background-image: url("../images/back-programming.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.top_container {
+  /* background-color:lightblue; */
+  background-image: url("../images/back-programming.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-hr{
-    border-style: dotted;
-    border-bottom-style: none ;
-    border-width: 5px;
-    width:4%;
-    color: grey;
-    margin:90px auto;
+hr {
+  border-style: dotted;
+  border-bottom-style: none;
+  border-width: 5px;
+  width: 4%;
+  color: grey;
+  margin: 90px auto;
 }
-#name{
-    font-family: 'Sacramento', cursive;
+#name {
+  font-family: "Sacramento", cursive;
 }
-.cloud1, .cloud2, #intro{
-    display: inline-block;
+.cloud1,
+.cloud2,
+#intro {
+  display: inline-block;
 }
-.mountain{
-    height:300px;
-    width: 500px;
+.mountain {
+  height: 300px;
+  width: 500px;
 }
-.cloud1{
-    position:relative;
-    right: 15%;
-    top:70px;
+.cloud1 {
+  position: relative;
+  right: 15%;
+  top: 70px;
 }
-.cloud2{
-    position: relative;
-    left: 15%;
-    bottom: 120px;
+.cloud2 {
+  position: relative;
+  left: 15%;
+  bottom: 120px;
 }
-#intro{
-    font-size: 2em; /* 16px = 100% =  1em*/
-    margin-top: 16%;
-    margin-bottom: 14%;
-    position: relative;
-    left: 25%;
-    color:blanchedalmond;
+#intro {
+  font-size: 2em; /* 16px = 100% =  1em*/
+  margin-top: 16%;
+  margin-bottom: 14%;
+  position: relative;
+  left: 25%;
+  color: blanchedalmond;
 }
-.profile{
-    margin: 80px;
+.profile {
+  margin: 80px;
 }
-.para{
-   width: 40%;
-   margin:auto;
-   line-height: 2;
+.para {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
 }
-.icon{
-    position: absolute;
-    left: 2.5%;
-    top:30px;
+.icon {
+  position: absolute;
+  left: 2.5%;
+  top: 30px;
 }
-nav{
-    position: relative;
-    left: 30%;
-    top:45px;
+nav {
+  position: relative;
+  left: 30%;
+  top: 45px;
 }
-.navLink{
-    padding: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
+.navLink {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
-.navLink:hover{
-    color:green;
+.navLink:hover {
+  color: green;
 }
-.skill-row1, .skill-row1{
-    position: relative;
-    margin: 100px auto;
+.skill-row1,
+.skill-row1 {
+  position: relative;
+  margin: 100px auto;
 }
-.analyst{
-    width: 6%;
-    position: absolute;
-    left: 25%;
+.analyst {
+  width: 6%;
+  position: absolute;
+  left: 25%;
 }
-.para1{
-    position: relative;
-    left: 30px;
+.para1 {
+  position: relative;
+  left: 30px;
 }
-.analyst1{
-    width: 6%;
-    position: absolute;
-    right: 25%;
+.analyst1 {
+  width: 6%;
+  position: absolute;
+  right: 25%;
 }
-.para2{
-    position:relative;
-    right: 30px;
+.para2 {
+  position: relative;
+  right: 30px;
 }
-button{
-    margin: 4% auto 8%;
-    border-radius: 10px;
-    border-color:#57a3a3;
-    padding: 5px;
-    background-color: #66BFBF;
+button {
+  margin: 4% auto 8%;
+  border-radius: 10px;
+  border-color: #57a3a3;
+  padding: 5px;
+  background-color: #66bfbf;
 }
-.btn{
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
+.btn {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
 }
-button:hover{
-    background-color: lightseagreen;
+button:hover {
+  background-color: lightseagreen;
 }
-.bottom-container{
-    background-color: #66BFBF;
-    padding-top: 40px;
-    padding-bottom: 10px;
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
-.footer-link{
-    text-decoration: none;
-    margin: 30px;
-    color: #2b9799;
-    font-weight: bold;
+.footer-link {
+  text-decoration: none;
+  margin: 30px;
+  color: #2b9799;
+  font-weight: bold;
 }
-.footer-link:hover{
-    color: #EAF6F6;
+.footer-link:hover {
+  color: #eaf6f6;
 }
-h3{
-    color: #11999E;
+h3 {
+  color: #11999e;
 }
-h2{
-    color:rgb(28, 112, 112)
+h2 {
+  color: rgb(28, 112, 112);
 }
-.copyright{
-    margin-top: 30px;
-    margin-bottom: 0px;
-    color: #EAF6F6;
-    font-size: 0.90rem;
+.copyright {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #eaf6f6;
+  font-size: 0.9rem;
 }
-
