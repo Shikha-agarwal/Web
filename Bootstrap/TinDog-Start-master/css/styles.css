@@ -8,7 +8,7 @@ body {
   color: white;
 }
 .container-fluid {
-  padding: 2% 15% 3%;
+  padding: 2% 15% 0;
 }
 h1 {
   font-size: 3.5rem;
@@ -25,17 +25,22 @@ h1 {
   padding-left: 18px;
   padding-right: 18px;
 }
-button {
+.download-button {
   margin: 5% 3% 5% 0;
 }
 .title-image {
   width: 60%;
   transform: rotate(22deg);
+  position: relative;
+  left: 18%;
 }
 
 /* Features-section */
 .container {
   padding: 8% 10% 8%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 .feature {
   padding: 5% 3% 5%;
@@ -71,7 +76,7 @@ h2 {
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 #press {
@@ -82,4 +87,16 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  text-align: center;
+  padding: 8% 15%;
+}
+.pricing-card {
+  padding: 4% 3% 0;
+}
+.card-header {
+  background-color: lightgray;
 }
