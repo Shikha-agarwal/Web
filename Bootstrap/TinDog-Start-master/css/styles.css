@@ -29,7 +29,7 @@ button {
   margin: 5% 3% 5% 0;
 }
 .title-image {
-  width: 50%;
+  width: 60%;
   transform: rotate(22deg);
 }
 
@@ -59,20 +59,21 @@ h3 {
 /* Testimonil-section */
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
   color: white;
 }
 h2 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 .testimonial-image {
-  width: 15%;
+  width: 12%;
   border-radius: 100%;
   margin: 20px;
 }
-
+.carousel-item{
+  padding: 7% 15%;
+}
 #press {
   background-color: #ef8172;
   text-align: center;
