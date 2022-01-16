@@ -58,7 +58,7 @@ p {
 .feature-icon:hover {
   color: #ff4c68;
 }
-h3 {
+.feature-topic {
   font-size: 1.5rem;
 }
 
@@ -102,14 +102,36 @@ h2 {
   background-color: lightgray;
 }
 
-@media (max-width:998px){
-  #title{
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-topic {
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+.footer-icon {
+  margin: 0.5%;
+}
+
+@media (max-width: 998px) {
+  #title {
     height: auto;
   }
-  .container-fluid{
+  .container-fluid {
     text-align: center;
   }
-  .title-image{
+  .title-image {
     position: static;
     transform: none;
     padding-bottom: 4%;
