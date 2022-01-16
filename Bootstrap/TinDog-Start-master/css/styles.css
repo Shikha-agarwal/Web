@@ -6,6 +6,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
+  height: 40rem;
 }
 .container-fluid {
   padding: 2% 15% 0;
@@ -99,4 +100,18 @@ h2 {
 }
 .card-header {
   background-color: lightgray;
+}
+
+@media (max-width:998px){
+  #title{
+    height: auto;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: none;
+    padding-bottom: 4%;
+  }
 }
