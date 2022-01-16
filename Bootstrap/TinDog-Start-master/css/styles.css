@@ -28,7 +28,6 @@ h3 {
 /* title-section */
 #title {
   text-align: left;
-  height: 40rem;
 }
 .container-fluid {
   padding: 2% 15% 0;
@@ -124,9 +123,6 @@ h2 {
 }
 
 @media (max-width: 998px) {
-  #title {
-    height: auto;
-  }
   .container-fluid {
     text-align: center;
   }
