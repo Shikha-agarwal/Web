@@ -7,36 +7,22 @@ h1{
     font-size: 5rem;
     font-weight: bold;
 }
-.box{
-    background-color: maroon;
-    height: 200px;
-    width: 200px;
-    border-radius: 15px;
-    position: relative;
+.flag{
+    width:5rem;
 }
-.row{
-    padding: 40px 35%;
-}
-.container1{
-    display: inline-block;
+.container{
+    margin:auto;
     text-align: center;
-    margin-right: 2rem;
 }
-.container-2{
+.dice{
     display: inline-block;
-    text-align: center;
+    padding-top: 3.5rem;
+}
+img{
+    width: 80%;
 }
 .copyright{
     text-align: center;
     color:grey;
-    padding-top: 5rem;
-}
-.dot{
-    background-color: white;
-    height:32px;
-    width: 32px;
-    border-radius: 100%;
-    position: absolute;
-    left: 84px;
-    top: 84px;
+    padding-top: 9rem;
 }
