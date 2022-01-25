@@ -14,7 +14,7 @@ h1 {
   color: white;
   margin: auto auto 3.5rem;
 }
-.signin:hover {
+.signin:active {
   background-color: blue;
   color: white;
 }
@@ -70,7 +70,7 @@ span {
   padding-left: 8px;
 }
 
-.media:hover {
+.media:active {
   box-shadow: 6px 6px 30px grey;
 }
 
