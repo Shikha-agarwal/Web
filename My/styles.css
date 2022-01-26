@@ -1,12 +1,12 @@
 /* First Page */
 
 #firstPgBody {
-  
   padding-bottom: 20%;
   text-align: center;
   /* background-image: linear-gradient(rgba(116, 124, 240, 0.979),white); */
   background-color: whitesmoke;
   position: relative;
+  color: #665f5f;
 }
 h1 {
   font-weight: bold;
@@ -68,26 +68,25 @@ span {
   padding-right: 8px;
   padding-left: 8px;
 }
-.outerCircle{
-  height:85px;
-  width:85px;
+.outerCircle {
+  height: 85px;
+  width: 85px;
   border: 15px;
   background-color: blue;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom-left-radius: 100% ;
+  border-bottom-left-radius: 100%;
   position: relative;
-  left:75%;
-  
+  left: 75%;
 }
-.innerCircle{
-  height:80px;
-  width:80px;
-  background-color:whitesmoke;
-  border-radius:0 0 0 100%;
+.innerCircle {
+  height: 80px;
+  width: 80px;
+  background-color: whitesmoke;
+  border-radius: 0 0 0 100%;
   position: relative;
-  left:22%;
+  left: 22%;
 }
 
 /* Secong Page */
@@ -95,6 +94,7 @@ span {
 #secondPgBody {
   text-align: center;
   background-image: linear-gradient(rgba(70, 82, 250, 0.726), white);
+  color: #665f5f;
 }
 .container-fluid {
   background-color: whitesmoke;
@@ -121,7 +121,7 @@ label {
   line-height: 3;
 }
 p {
-  font-size:smaller;
+  font-size: smaller;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -133,6 +133,3 @@ p {
   border-radius: 5px;
   margin-top: 3.5rem;
 }
-
-
-
