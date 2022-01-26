@@ -14,7 +14,7 @@ h1 {
   color: white;
   margin: auto auto 3.5rem;
 }
-.signin:active {
+.signNext{
   background-color: blue;
   color: white;
 }
@@ -70,13 +70,13 @@ span {
   padding-left: 8px;
 }
 
-.media:active {
+.media:hover {
   box-shadow: 6px 6px 30px grey;
 }
 
 #secondPgBody {
   text-align: center;
-  background-image: linear-gradient(rgba(70, 82, 250, 0.979), white);
+  background-image: linear-gradient(rgba(70, 82, 250, 0.863), white);
 }
 .container-fluid {
   background-color: whitesmoke;
@@ -84,7 +84,7 @@ span {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 4rem 2rem;
-  box-shadow: 6px 0px 22px blue;
+  box-shadow: 6px 0px 25px blue;
 }
 form {
   margin-top: 3rem;
@@ -99,7 +99,7 @@ input {
 }
 label {
   position: relative;
-  right: 4rem;
+  right: 2.7rem;
   line-height: 3;
 }
 p {
@@ -114,6 +114,6 @@ p {
   border-radius: 5px;
   margin-top: 3.5rem;
 }
-.submitButton:hover {
-  background-color: blue;
-}
+
+
+
